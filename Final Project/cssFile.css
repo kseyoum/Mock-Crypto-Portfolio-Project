@@ -1,0 +1,303 @@
+
+.body
+{
+	background-color: #333333;
+}
+.home
+{
+	background-image: url(Images/homepage2.jpeg);
+
+}
+.jumbotron
+{
+	
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	position: relative;
+	margin-bottom: 0px;
+
+
+}
+.port
+{
+	background-image: url(Images/portpage.jpeg);
+	background-size: cover;
+	position: relative;
+}
+.info
+{
+	background-image: url(Images/Homepage.jpeg);
+	background-size: cover;
+	position: relative;
+}
+
+}
+.port p
+{
+	position: absolute;
+	top: 40%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: white;
+
+}
+.jumbotron h1
+{
+	text-align: center;
+	position: absolute;
+	top: 10%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: white;
+
+
+}
+.jumbotron p
+{
+	text-align: center;
+	position: absolute;
+	top: 20%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: white;
+	
+
+}
+.text
+{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+
+}
+
+.stext
+{
+	font-family: 'Orbitron', sans-serif;
+}
+.services
+{
+	position: relative;
+	height: 30px;
+	margin-bottom: 10px;
+}
+.Serv
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+}
+
+.second
+{
+	height: 400px;
+	background-color: #333333;
+}
+.stockmarket
+{
+	border-style: white;
+	background-color: #333333;
+	color: white;
+}
+/*.error-message
+{
+	visibility: hidden;
+}*/
+.edit
+{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+.btn-primary
+{
+	margin-bottom: 10px;
+}
+.pb
+{
+	margin-bottom: 10px;
+}
+.portVal
+{
+	margin-top: 20px;
+}
+.coin
+{
+/*	height: 107px;
+width: 174px;*/
+}
+.form
+{
+	position: absolute;
+	top: 30%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.space
+{
+	height: 50px;
+}
+.space-two
+{
+	height: 100px;
+}
+.stocks
+{
+	height: 25px;
+	overflow: hidden;
+	position: relative;
+}
+.stocks div
+{
+	font-size: 18px;
+	color: white;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	line-height: 30px;
+	text-align: center;
+	/* Starting position */
+	-moz-transform:translateX(100%);
+	-webkit-transform:translateX(100%);	
+	transform:translateX(100%);
+	/* Apply animation to this element */	
+	-moz-animation: stocks 15s linear infinite;
+	-webkit-animation: stocks 15s linear infinite;
+	animation: stocks 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes stocks {
+	0%   { -moz-transform: translateX(100%); }
+	100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes stocks {
+	0%   { -webkit-transform: translateX(100%); }
+	100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes stocks {
+	0%   { 
+		-moz-transform: translateX(100%); /* Firefox bug fix */
+		-webkit-transform: translateX(100%); /* Firefox bug fix */
+		transform: translateX(100%); 		
+	}
+	100% { 
+		-moz-transform: translateX(-100%); /* Firefox bug fix */
+		-webkit-transform: translateX(-100%); /* Firefox bug fix */
+		transform: translateX(-100%); 
+	}
+}
+.labels
+{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+
+}
+.info
+{
+	height: 900px;
+}
+.footer
+{
+	margin-left: 0px; 
+	text-align: left;
+}
+.footer1
+{
+	margin-left: 0px;
+	text-align: left;
+}
+#error
+{
+	font-color: white;
+	font-style: bold;
+
+}
+
+
+
+
+
+
+
+.row
+{
+	position: relative;
+	text-align: center;
+}
+.row img
+{
+	width: 100%;
+	
+
+}
+.Center
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+
+}
+.two
+{
+	border-bottom: solid;
+	margin-right:10px;
+	margin-left: 10px;
+
+}
+.three
+{
+	border-bottom: solid;
+	margin-right:10px;
+	margin-left: 10px;
+
+}
+.text p
+{
+	text-align: left;
+}
+.two img
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.three img
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.team img
+{
+	border-radius: 50%;
+}
+.footer
+{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	background-color: #333333;
+
+}
+.t-one
+{
+	padding-bottom: 20px;
+	border-bottom: solid;
+}
+
+
+
+
+
